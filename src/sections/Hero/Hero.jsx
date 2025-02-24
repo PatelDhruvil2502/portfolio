@@ -59,7 +59,11 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a
+          href={
+            "https://drive.google.com/file/d/1P3kRA3Y3DkJw4aB2ZH0R20jKJvHq-IQr/view?usp=sharing"
+          }
+        >
           <button className="hover">Resume</button>
         </a>
       </div>
