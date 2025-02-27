@@ -9,6 +9,9 @@
 
   .hero {
     max-width: 200px;
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Clip the image to the circle */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add the shadow */
   }
 
   span {
