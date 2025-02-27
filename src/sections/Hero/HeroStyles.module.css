@@ -77,6 +77,17 @@
   gap: 20px;
 }
 
+/* Add this media query */
+@media (max-width: 799px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    gap: 20px;
+    text-align: center; /* Center text within items */
+  }
+}
+
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
