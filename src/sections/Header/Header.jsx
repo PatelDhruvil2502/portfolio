@@ -27,7 +27,9 @@ function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.headerContent}>
-        <div className={styles.greeting}>{greeting}</div>
+        <div className={styles.greetingContainer}>
+          <div className={styles.greeting}>{greeting}</div>
+        </div>
         <nav className={styles.nav}>
           <div
             className={styles.hamburger}

@@ -15,10 +15,25 @@
   padding: 0 20px;
 }
 
+.greetingContainer {
+  overflow: hidden;
+  width: 50vw; /* Adjust based on your needs */
+}
+
 .greeting {
   font-size: 1.2rem;
   font-weight: bold;
   white-space: nowrap;
+  animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .nav {
