@@ -1,8 +1,8 @@
 /* HeaderStyles.module.css */
 .header {
-  background-color: black; /* Add a background color */
-  color: var(--text-color);
-  padding: 25px 0; /* Reduce padding to reduce the gap */
+  background-color: black;
+  color: white;
+  padding: 25px 0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -10,8 +10,8 @@
 
 .nav {
   display: flex;
-  justify-content: end;
-  padding-right: 9vw;
+  justify-content: center;
+  padding-right: 0;
 }
 
 .navList {
@@ -21,10 +21,16 @@
   display: flex;
   gap: 30px;
 }
+@media screen and (min-width: 801px) {
+  .nav {
+    justify-content: flex-end; /* End-align for screens wider than 800px */
+    padding-right: 9vw; /* Add padding for end-alignment */
+  }
+}
 
 .navItem a {
   text-decoration: none;
-  color: var(--text-color);
+  color: white;
   font-weight: bold;
   font-size: 1.2rem;
   transition: color 0.3s ease;
