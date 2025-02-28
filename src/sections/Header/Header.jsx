@@ -9,9 +9,9 @@ function Header() {
   useEffect(() => {
     const updateGreeting = () => {
       const hour = new Date().getHours();
-      if (hour < 12) setGreeting("Good morning");
-      else if (hour < 18) setGreeting("Good afternoon");
-      else setGreeting("Good evening");
+      if (hour < 12) setGreeting("Good Morning");
+      else if (hour < 18) setGreeting("Good Afternoon");
+      else setGreeting("Good Evening");
     };
 
     // Update greeting immediately
